@@ -26,4 +26,8 @@ puts ratings.length
 #Blocks
 5.times {puts "Hello"}
 
+#Directory
+puts Dir
+#puts Dir.entries "/"
+puts Dir["/home/khushali1/*.txt"]
 
