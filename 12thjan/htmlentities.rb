@@ -13,3 +13,4 @@ puts coder.encode(string, :hexadecimal)
 puts coder.encode(string, :decimal, :basic)
 
 
+
