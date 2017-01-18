@@ -1,0 +1,62 @@
+This both are the test taska for you :
+
+For Both :
+
+1) First Prog :
+*
+**
+***
+****
+*****
+
+
+
+2) Second Prog :
+
+*****
+****
+***
+**
+*
+
+3) Third Prog :
+
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+
+4) Forth Prog :
+
+*********
+**** ****
+***   ***
+**     **
+*       *
+**     **
+***   ***
+**** ****
+*********
+
+5) Fifth Program :
+
+   -> Program for Checking Prime number
+
+6) Any Two File Handling Program.. and Also perform Array functions into it 
+
+
+Individual Programs :
+
+Kinjal :
+
+-> Program to check whether the number is armstrong or not
+
+Khushali :
+ 
+-> Program generate Fibonacci series
+
