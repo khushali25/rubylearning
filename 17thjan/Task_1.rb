@@ -11,13 +11,7 @@ end
 
 =end
 
-
 #second way
-
 (1..5).each do |i|
-if(i==1)
-puts "*"
-else
 puts "*"*i
-end
 end
