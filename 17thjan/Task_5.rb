@@ -1,16 +1,19 @@
 puts "Enter Number:"
-n=gets.to_i
+n=gets.chomp.to_i
 
-flag=true
+flag=0
 
-for i in 2..(n-1)
+starttime=Time.now
 
-	if(n%i==0)
+for i in 2..n/2
 
-	flag=false
+	flag=1 if(n%i==0)
 			
-	end
-
 end
-puts "Not prime" if flag==false
-puts "Prime" if flag==true
+
+endtime=Time.now
+diff=endtime-starttime
+
+puts "Not prime" if flag==1
+puts "Prime" if flag==0
+puts diff
