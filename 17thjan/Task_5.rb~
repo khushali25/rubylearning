@@ -1,6 +1,7 @@
 puts "Enter Number:"
 n=gets.chomp.to_i
 
+<<<<<<< HEAD
 flag=0
 
 starttime=Time.now
@@ -17,4 +18,9 @@ diff=endtime-starttime
 puts "Not prime" if flag==1
 puts "Prime" if flag==0
 puts diff
-
+=======
+require 'prime'
+p=Prime.instance.prime?(n)
+puts "Prime" if p==true
+puts "Not Prime" if p==false
+>>>>>>> fd5873f90f13ecf8b4812b3f4291f496f82637a5
