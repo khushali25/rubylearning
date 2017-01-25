@@ -1,4 +1,3 @@
-
 5.downto(1).each do |i|
 	print ("*"*i).ljust(5).chop
 	print ("*"*i).rjust(5)
