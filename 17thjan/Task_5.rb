@@ -17,3 +17,4 @@ diff=endtime-starttime
 puts "Not prime" if flag==1
 puts "Prime" if flag==0
 puts diff
+
