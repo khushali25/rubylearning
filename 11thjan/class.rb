@@ -2,7 +2,7 @@
 $global_var=10
 class Customer
 	@@class_var=0
-        
+
     def initialize(id,name,age)
 	@cust_id=id
 	@cust_name=name
@@ -19,10 +19,10 @@ class Customer
 
         mul=num1*num2
         puts "Multiplication= #{mul}"
-        
+
     end
- 
- 
+
+
 obj1=Customer.new("1","abc","20")
 obj2=Customer.new("2","pqr","30")
 
@@ -59,8 +59,9 @@ end
 
 #constant
 class Constantdemo
+
 	Const_var=100
-   
+
   def show
    #Const_var+=1
    #Const_var=120

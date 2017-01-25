@@ -19,7 +19,7 @@ utry=1
   print "Guess Number: "
   num=gets.chomp.to_i
 
-if utry <= 10 then
+if utry < 10 then
     if num < ran1 then
         puts "This is laser then selected number"
     elsif num > ran1

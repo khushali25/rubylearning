@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Object - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link">BasicObject
+  
+</div>
+
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-downer">#downer</a>
+    
+    <li ><a href="#method-i-f">#f</a>
+    
+    <li ><a href="#method-i-foo">#foo</a>
+    
+    <li ><a href="#method-i-g">#g</a>
+    
+    <li ><a href="#method-i-mtd">#mtd</a>
+    
+    <li ><a href="#method-i-newmtd">#newmtd</a>
+    
+    <li ><a href="#method-i-oldmtd">#oldmtd</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Object">
+  <h1 id="class-Object" class="class">
+    class Object
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-downer" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">downer</span><span
+            class="method-args">(string)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>bang(!) methods</p>
+          
+          
+
+          
+          <div class="method-source-code" id="downer-source">
+            <pre><span class="ruby-comment"># File methods.rb, line 40</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">downer</span>(<span class="ruby-identifier">string</span>)
+  <span class="ruby-identifier">string</span>.<span class="ruby-identifier">downcase</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-f" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">f</span><span
+            class="method-args">(arg)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="f-source">
+            <pre><span class="ruby-comment"># File test.rb, line 5</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">f</span> <span class="ruby-identifier">arg</span>
+  <span class="ruby-identifier">arg</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-foo" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">foo</span><span
+            class="method-args">(a,*my_string)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>splat arguments</p>
+          
+          
+
+          
+          <div class="method-source-code" id="foo-source">
+            <pre><span class="ruby-comment"># File methods.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">foo</span>(<span class="ruby-identifier">a</span>,<span class="ruby-operator">*</span><span class="ruby-identifier">my_string</span>)
+   <span class="ruby-identifier">a</span>.<span class="ruby-identifier">inspect</span>
+  <span class="ruby-identifier">my_string</span>.<span class="ruby-identifier">inspect</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-g" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">g</span><span
+            class="method-args">(*args)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="g-source">
+            <pre><span class="ruby-comment"># File test.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">g</span> <span class="ruby-operator">*</span><span class="ruby-identifier">args</span> <span class="ruby-comment"># The splat here says accept 1 or more arguments, in the form of an Array</span>
+  <span class="ruby-identifier">args</span>      <span class="ruby-comment"># This returns an array</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-mtd" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">mtd</span><span
+            class="method-args">(arg1="Dibya", arg2="Shashank", arg3="Shashank")</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="mtd-source">
+            <pre><span class="ruby-comment"># File methods.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">mtd</span>(<span class="ruby-identifier">arg1</span>=<span class="ruby-string">&quot;Dibya&quot;</span>, <span class="ruby-identifier">arg2</span>=<span class="ruby-string">&quot;Shashank&quot;</span>, <span class="ruby-identifier">arg3</span>=<span class="ruby-string">&quot;Shashank&quot;</span>)
+  <span class="ruby-node">&quot;#{arg1}, #{arg2}, #{arg3}.&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-newmtd" class="method-detail method-alias">
+        
+        <div class="method-heading">
+          <span class="method-name">newmtd</span><span
+            class="method-args">()</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+        </div>
+
+        
+
+        
+        <div class="aliases">
+          Alias for: <a href="Object.html#method-i-oldmtd">oldmtd</a>
+        </div>
+        
+      </div>
+
+    
+      <div id="method-i-oldmtd" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">oldmtd</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="oldmtd-source">
+            <pre><span class="ruby-comment"># File methods.rb, line 10</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">oldmtd</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;old method&quot;</span>,<span class="ruby-identifier">$var</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+        <div class="aliases">
+          Also aliased as: <a href="Object.html#method-i-newmtd">newmtd</a>
+        </div>
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
